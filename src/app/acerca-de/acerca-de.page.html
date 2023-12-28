@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>AcercaDe</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="page-background">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>{{ serieInfo.title }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <br>
+      <p>Cantidad de temporadas: {{ serieInfo.seasons }}</p>
+      <br>
+      <p>Creador: {{ serieInfo.creator }}</p>
+      <br>
+      <p>Genero: {{serieInfo.Genero}}</p>
+      <br>
+      <p>Este titulo es: {{serieInfo.titulo}}</p>
+      <br>
+      <p>Descripcion: {{serieInfo.Descripcion}}</p>
+    </ion-card-content>
+    <img src="../../assets/portada2.jpg" class="centro">
+  </ion-card>
+</ion-content>

@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Portada</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ngx-slick-carousel class="carousel" [config]="sliderConfig">
+    <div class="center-container">
+      <h2>La Revolución</h2>
+    </div>
+    <div class="slide">
+      
+      <img src="assets/portada2.jpg" alt="Slide 1">
+    </div>
+    <div class="slide">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/aGwUITVlzwQ?si=grpuRP8X1JeMYanG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="slide">
+      <!-- Contenido del tercer slide -->
+      <img src="assets/portada3.jpg" alt="Slide 3">
+    </div>
+  </ngx-slick-carousel>
+</ion-content>

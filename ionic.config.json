@@ -1,0 +1,7 @@
+{
+  "name": "tarea5_ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
